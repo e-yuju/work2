@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>needs plant</title>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" href="css/sub1/sub1_style.css">
+</head>
+<body>
+    <header>
+        <div class="drop">
+            <nav>            
+                <ul class="menu mainmenu"> 
+                    <div class="logo">
+                        <a href="index_1.html" class="logo">
+                            <img src="img/logo_w1.png">
+                        </a>
+                    </div>              
+                    <li class="inmenu">
+                        <a href="sub_1.html">shop</a>
+                        <ul class="submenu">
+                            <li><a href="sub_1_1.html">garden</a></li>
+                            <li><a href="sub_1_2.html">cactus</a></li>
+                            <li><a href="sub_1_3.html">succulent</a></li>
+                        </ul>
+                    </li>
+                    <li class="inmenu"><a href="index_1.html#about" id="">about</a></li>
+                    <li class="inmenu">
+                        <a href="sub_2.html">class</a>
+                        <ul class="submenu">
+                            <li><a href="sub_2_1.html">hobby</a></li>
+                            <li><a href="sub_2_2.html">1day</a></li>
+                            <li><a href="sub_2_3.html">management</a></li>
+                        </ul>
+                    </li>
+                    <li class="inmenu">
+                        <a href="#">gift</a>
+                        <ul class="submenu">
+                            <li><a href="#">bouquet</a></li>
+                            <li><a href="#">basket</a></li>
+                            <li><a href="#">plant</a></li>
+                        </ul>
+                    </li>
+                    <li class="inmenu">
+                        <a href="sub_4.html">review</a>
+                        <ul class="submenu">
+                            <li><a href="sub_4_1.html">photo</a></li>
+                            <li><a href="sub_4_2.html">review</a></li>
+                        </ul>
+                    </li>
+                    <div class="login">
+                        <a href="#" id="myBtn">login</a>                        
+                        <a href="cart.html">cart ( <span> 0 </span> )</a>                        
+                    </div>                                     
+                </ul>
+                <span class="toggle">
+                    <i class="fas fa-bars"></i>
+                </span>   
+            </nav>
+        </div>
+    </header>
+    <div id="myModal" class="modal">
+        <div class="modal_content">
+            <span id="close">x</span>
+            <div class="in_modal">                
+                <div class="form">
+                    <h2>간편 로그인</h2>
+                    <div class="modal_login">
+                        <span>Nickname</span>  
+                        <input type="text" placeholder="닉네임을 입력하세요"><br>
+                        <span>E-mail</span> 
+                        <input type="email" placeholder="이메일을 입력하세요"><br>
+                        <span>PW</span> 
+                        <input type="password"  placeholder="영문/숫자 표함 6자리 이상"><br>
+                    </div>                    
+                    <div class="butt">
+                        <input type="submit" value="LOGIN">
+                        <input type="reset" value="RESET">
+                    </div>
+                    <h3>소셜 로그인</h3>
+                    <div class="snslogin">                        
+                        <a class="kakao" target="_blank" href="https://accounts.kakao.com/login?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount%2Finfo">
+                            <img src="img/ka.svg" alt="">
+                        </a>
+                        <a class="google" target="_blank" href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                            <img src="img/goo1.svg" alt="">
+                        </a>
+                        <a class="twiter" target="_blank" href="https://twitter.com/login?lang=ko">
+                            <img src="img/tw.svg" alt="">
+                        </a>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--슬라이드-->
+    <section class="sub_1container">
+        <ul class="sub_1slider-container sub_1simple-list" id="sub_1slider">
+            <li class="sub_1slide">
+               <a href="sub_1_1.html">
+                    <div class="sub_1slide_bg1">
+                        <strong>garden</strong>
+                    </div>
+               </a>
+            </li>
+            <li class="sub_1slide">
+                <a href="sub_1_2.html">
+                    <div class="sub_1slide_bg2">
+                        <strong>cactus</strong>
+                    </div>
+                </a>
+            </li>
+            <li class="sub_1slide">
+                <a href="sub_1_3.html">
+                    <div class="sub_1slide_bg3">
+                        <strong>succulent</strong>
+                    </div>
+                </a>
+            </li>            
+        </ul>
+     
+        <p class="sub_1pager"></p>
+    </section>
+    <section class="sub_1content">
+        <div class="shopAll">
+            <h2>shop all</h2>
+        </div>
+        <article class="sub_1garden">
+            <h3 class="sub_1Line">garden</h3>
+            <div class="sub_1gardenbox">
+                <div class="sub_1product1">
+                    <a href="#">
+                        <div class="sub_1hover">
+                            <span class="sub_1gardenimg1"></span>
+                        </div>
+                    <div class="sub_1gardentext">
+                        <h3 class="sub_1size2">떡갈고무나무 </h3>
+                        <p>50,000</p>
+                        <a href="#" class="sub_1Addcart">add to cart</a>
+                    </div>  
+                    </a>              
+                </div>
+                <div class="sub_1product1">
+                    <a href="#">
+                        <div class="sub_1hover">
+                            <span class="sub_1gardenimg2"></span>
+                        </div>
+                    <div class="sub_1gardentext">
+                        <h3 class="sub_1size1">몬스테라 </h3>
+                        <p>60,000</p>
+                        <a href="#" class="sub_1Addcart">add to cart</a>
+                    </div> 
+                    </a>               
+                </div>
+                <div class="sub_1product1">
+                    <a href="#">
+                        <div class="sub_1hover">
+                            <span class="sub_1gardenimg3"></span>
+                        </div>
+                    <div class="sub_1gardentext">
+                        <h3 class="sub_1size2">칼라데아 오나타 </h3>
+                        <p>70,000</p>
+                        <a href="#" class="sub_1Addcart">add to cart</a>
+                    </div>   
+                    </a>             
+                </div>
+                <div class="sub_1product1">
+                    <a href="#">
+                        <div class="sub_1hover">
+                            <span class="sub_1gardenimg4"></span>
+                        </div>
+                    <div class="sub_1gardentext">
+                        <h3 class="sub_1size1">필로덴드론 핑크 </h3>
+                        <p>50,000</p>
+                        <a href="#" class="sub_1Addcart">add to cart</a>
+                    </div> 
+                    </a>           
+                </div>               
+            </div>
+            <div class="sub_1bttn">
+                <button type="button" onclick="location.href='sub_1_1.html'">go to garden</button>
+            </div>
+        </article>
+        <article class="sub_1cactus">
+            <h3 class="sub_1Line">cactus</h3>
+            <div class="sub_1cactusbox">
+                <div class="sub_1product2">
+                    <a href="#">
+                        <div class="sub_1hover">
+                            <span class="sub_1cactusimg1"></span>
+                        </div>
+                    <div class="sub_1cactustext">
+                        <h3 class="sub_1size1">금호선인장 </h3>
+                        <p>10,000</p>
+                        <a href="#" class="sub_1Addcart" class="sub_1Addcart">add to cart</a>
+                    </div> 
+                    </a>               
+                </div>
+                <div class="sub_1product2">
+                    <a href="#">
+                        <div class="sub_1hover">
+                            <span class="sub_1cactusimg2"></span>
+                        </div>
+                    <div class="sub_1cactustext">
+                        <h3 class="sub_1size2">미르틸로 용신목 </h3>
+                        <p>15,000</p>
+                        <a href="#" class="sub_1Addcart" class="sub_1Addcart">add to cart</a>
+                    </div>   
+                    </a>             
+                </div>
+                <div class="sub_1product2">
+                    <a href="#">
+                        <div class="sub_1hover">
+                            <span class="sub_1cactusimg3"></span>
+                        </div>
+                    <div class="sub_1cactustext">
+                        <h3 class="sub_1size2">유포르비아 </h3>
+                        <p>30,000</p>
+                        <a href="#" class="sub_1Addcart" class="sub_1Addcart">add to cart</a>
+                    </div> 
+                    </a>               
+                </div>
+                <div class="sub_1product2">
+                    <a href="#">
+                        <div class="sub_1hover">
+                            <span class="sub_1cactusimg4"></span>
+                        </div>
+                    <div class="sub_1cactustext">
+                        <h3 class="sub_1size2">토끼귀 선인장 </h3>
+                        <p>15,000</p>
+                        <a href="#" class="sub_1Addcart" class="sub_1Addcart">add to cart</a>
+                    </div> 
+                    </a>           
+                </div>               
+            </div>
+            <div class="sub_1bttn">
+                <button type="button" onclick="location.href='sub_1_2.html'">go to cactus</button>
+            </div>
+        </article>
+        <article class="sub_1succulents">
+            <h3 class="sub_1Line">succulent</h3>
+            <div class="sub_1succulentbox">
+                <div class="sub_1product3">
+                    <a href="#">
+                        <div class="sub_1hover">
+                            <span class="sub_1succulentimg1"></span>
+                        </div>
+                    <div class="sub_1succulenttext">
+                        <h3>모닝뷰티</h3>
+                        <p>10,000</p>
+                        <a href="#" class="sub_1Addcart">add to cart</a>
+                    </div>  
+                    </a>              
+                </div>
+                <div class="sub_1product3">
+                    <a href="#">
+                        <div class="sub_1hover">
+                            <span class="sub_1succulentimg2"></span>
+                        </div>
+                    <div class="sub_1succulenttext">
+                        <h3>스타라이트</h3>
+                        <p>5,000</p>
+                        <a href="#" class="sub_1Addcart">add to cart</a>
+                    </div>  
+                    </a>              
+                </div>
+                <div class="sub_1product3">
+                    <a href="#">
+                        <div class="sub_1hover">
+                            <span class="sub_1succulentimg3"></span>
+                        </div>
+                    <div class="sub_1succulenttext">
+                        <h3>블루아톨</h3>
+                        <p>8,000</p>
+                        <a href="#" class="sub_1Addcart">add to cart</a>
+                    </div>  
+                    </a>               
+                </div>
+                <div class="sub_1product3">
+                    <a href="#">
+                        <div class="sub_1hover">
+                            <span class="sub_1succulentimg4"></span>
+                        </div>
+                    <div class="sub_1succulenttext">
+                        <h3>펄 폰 뉘른베르크</h3>
+                        <p>10,000</p>
+                        <a href="#" class="sub_1Addcart">add to cart</a>
+                    </div> 
+                    </a>           
+                </div>               
+            </div>
+            <div class="sub_1bttn">
+                <button type="button" onclick="location.href='sub_1_3.html'">go to succulent</button>
+            </div>
+        </article>
+        
+    </section>
+    <footer>
+        <div class="footertxt">
+            <ul>
+                <li>OUR STORE</li>
+                <li><span>서울특별시 송파구 송파대로12길</span></li>
+                <li>Phone: 123-456-7890</li>
+                <li>Email:  needsplant@mysite.com</li>
+            </ul>
+            <ul>
+                <li>OPENING HOURS</li>
+                <li>Mon - Fri: 7am - 10pm</li>
+                <li>​​Saturday: 8am - 10pm</li>
+                <li>Sunday: 8am - 11pm</li>
+            </ul>
+            <ul>
+                <li>HELP</li>
+                <li>Shipping & Returns</li>
+                <li>Privacy Policy</li>
+                <li>FAQ</li>
+            </ul>
+            <ul>
+                <li>SUBSCRIBE</li>
+                <li class="Input">
+                    <input type="text" class="Email" name="email1" size="25" placeholder="Enter your email here">
+                    <span class="subscribe-button focus1">Subscribe Now</span>
+                    <!-- <input type="submit" value="Subscribe Now"> -->
+                </li>
+            </ul>
+        </div>
+        <ul class="small">
+            <li>SUBSCRIBE</li>
+            <li class="Input2">
+                <input type="text" class="Email2"name="email1" size="25" placeholder="Enter your email here">
+                <span class="subscribe-button2 focus2">Subscribe Now</span>
+                <!-- <input type="submit" value="Subscribe Now"> -->
+            </li>
+        </ul>
+        <div class="sns">
+            <div class="snsicon">
+                <a href="https://www.instagram.com/" target="_blank"><img src="img/sns1.svg"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="img/sns2.svg"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="img/sns3.svg"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="img/sns4.svg"></a>
+            </div>
+        </div>
+    </footer>    
+
+
+    
+
+    <script type="text/javascript" src="js/sub1/sub1_slide.js"></script>
+    <script type="text/javascript" src="js/main/dropdown_1.js"></script>
+    <script type="text/javascript" src="js/main/modal.js"></script>
+    <script type="text/javascript" src="js/main/menu_toggle.js"></script>
+    <script type="text/javascript" src="js/main/submit.js"></script>
+    <script type="text/javascript" src="js/sub1/cart_1.js"></script>
+
+</body>
+</html>

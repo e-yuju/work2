@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>needs plant</title>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.min.js"></script>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" href="css/sub1_3/sub1_3_style.css">
+</head>
+<body>
+    <header>
+        <div class="drop">
+            <nav>            
+                <ul class="menu mainmenu"> 
+                    <div class="logo">
+                        <a href="index_1.html" class="logo">
+                            <img src="img/logo_w1.png">
+                        </a>
+                    </div>              
+                    <li class="inmenu">
+                        <a href="sub_1.html">shop</a>
+                        <ul class="submenu">
+                            <li><a href="sub_1_1.html">garden</a></li>
+                            <li><a href="sub_1_2.html">cactus</a></li>
+                            <li><a href="sub_1_3.html">succulent</a></li>
+                        </ul>
+                    </li>
+                    <li class="inmenu"><a href="index_1.html#about" id="">about</a></li>
+                    <li class="inmenu">
+                        <a href="sub_2.html">class</a>
+                        <ul class="submenu">
+                            <li><a href="sub_2_1.html">hobby</a></li>
+                            <li><a href="sub_2_2.html">1day</a></li>
+                            <li><a href="sub_2_3.html">management</a></li>
+                        </ul>
+                    </li>
+                    <li class="inmenu">
+                        <a href="#">gift</a>
+                        <ul class="submenu">
+                            <li><a href="#">bouquet</a></li>
+                            <li><a href="#">basket</a></li>
+                            <li><a href="#">plant</a></li>
+                        </ul>
+                    </li>
+                    <li class="inmenu">
+                        <a href="sub_4.html">review</a>
+                        <ul class="submenu">
+                            <li><a href="sub_4_1.html">photo</a></li>
+                            <li><a href="sub_4_2.html">review</a></li>
+                        </ul>
+                    </li>
+                    <div class="login">
+                        <a href="#" id="myBtn">login</a>                        
+                        <a href="cart.html">cart ( <span> 0 </span> )</a>                        
+                    </div>                                     
+                </ul>
+                <span class="toggle">
+                    <i class="fas fa-bars"></i>
+                </span>   
+            </nav>
+        </div>
+    </header>
+    <div id="myModal" class="modal">
+        <div class="modal_content">
+            <span id="close">x</span>
+            <div class="in_modal">                
+                <div class="form">
+                    <h2>간편 로그인</h2>
+                    <div class="modal_login">
+                        <span>Nickname</span>  
+                        <input type="text" placeholder="닉네임을 입력하세요"><br>
+                        <span>E-mail</span> 
+                        <input type="email" placeholder="이메일을 입력하세요"><br>
+                        <span>PW</span> 
+                        <input type="password"  placeholder="영문/숫자 표함 6자리 이상"><br>
+                    </div>                    
+                    <div class="butt">
+                        <input type="submit" value="LOGIN">
+                        <input type="reset" value="RESET">
+                    </div>
+                    <h3>소셜 로그인</h3>
+                    <div class="snslogin">                        
+                        <a class="kakao" target="_blank" href="https://accounts.kakao.com/login?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount%2Finfo">
+                            <img src="img/ka.svg" alt="">
+                        </a>
+                        <a class="google" target="_blank" href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                            <img src="img/goo1.svg" alt="">
+                        </a>
+                        <a class="twiter" target="_blank" href="https://twitter.com/login?lang=ko">
+                            <img src="img/tw.svg" alt="">
+                        </a>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!--배너-->
+    <section class="sub_1_3container">
+        <ul class="sub_1_3banner-container">
+            <li class="sub_1_3banner">
+               <a href="sub_1_3.html">
+                    <div class="sub_1_3banner_bg1">
+                        <strong>succulent</strong>
+                    </div>
+               </a>
+            </li>                      
+        </ul>
+    </section>
+
+    <section class="sub_1_3_content">
+        <div class="sub_1_3Title">
+            <h2 class="sub_1_3TitleIn">succulent</h2>
+        </div>
+
+        <article class="sub_1_3succulent1 sub_1_3first">
+            <div class="sub_1_3succulentbox1">
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg1"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3 class="sub_1_3size1">모닝뷰티 </h3>
+                        <p>10,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div>  
+                    </a>              
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg2"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3 class="sub_1_3size1">스타라이트 </h3>
+                        <p>5,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div> 
+                    </a>               
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg3"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3 class="sub_1_3size1">블루아톨 </h3>
+                        <p>8,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div>   
+                    </a>             
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg4"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3 class="sub_1_3size1">뉘른베르크 </h3>
+                        <p>10,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div> 
+                    </a>           
+                </div>               
+            </div>
+        </article>
+        <article class="sub_1_3succulent1">
+            <div class="sub_1_3succulentbox2">
+                <div class="sub_1_3product2">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg5"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3>드래곤 블러드 </h3>
+                        <p>5,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div>  
+                    </a>              
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg6"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3>크라슐라 모르건 </h3>
+                        <p>8,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div> 
+                    </a>               
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg7"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3>칼랑코에 초코 </h3>
+                        <p>10,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div>   
+                    </a>             
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg8"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3>셈페르비붐 레드라이언 </h3>
+                        <p>10,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div> 
+                    </a>           
+                </div>               
+            </div>
+        </article>
+        <article class="sub_1_3succulent1">
+            <div class="sub_1_3succulentbox3">
+                <div class="sub_1_3product3">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg9"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3>녹영 콩란 </h3>
+                        <p>7,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div>  
+                    </a>              
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg10"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3 class="sub_1_3size2">블랙로즈 </h3>
+                        <p>10,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div> 
+                    </a>               
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg11"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3>크라슐라 헤레이 </h3>
+                        <p>6,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div>   
+                    </a>             
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg12"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3>선 버스트 </h3>
+                        <p>5,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div> 
+                    </a>           
+                </div>               
+            </div>
+        </article>
+        <article class="sub_1_3succulent1">
+            <div class="sub_1_3succulentbox1">
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg1"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3 class="sub_1_3size1">모닝뷰티 </h3>
+                        <p>10,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div>  
+                    </a>              
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg2"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3 class="sub_1_3size1">스타라이트 </h3>
+                        <p>5,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div> 
+                    </a>               
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg3"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3 class="sub_1_3size1">블루아톨 </h3>
+                        <p>8,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div>   
+                    </a>             
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg4"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3 class="sub_1_3size1">뉘른베르크 </h3>
+                        <p>10,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div> 
+                    </a>           
+                </div>               
+            </div>
+        </article>
+        <article class="sub_1_3succulent1">
+            <div class="sub_1_3succulentbox2">
+                <div class="sub_1_3product2">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg5"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3>드래곤 블러드 </h3>
+                        <p>5,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div>  
+                    </a>              
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg6"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3>크라슐라 모르건 </h3>
+                        <p>8,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div> 
+                    </a>               
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg7"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3>칼랑코에 초코 </h3>
+                        <p>10,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div>   
+                    </a>             
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg8"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3>셈페르비붐 레드라이언 </h3>
+                        <p>10,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div> 
+                    </a>           
+                </div>               
+            </div>
+        </article>
+        <article class="sub_1_3succulent1">
+            <div class="sub_1_3succulentbox3">
+                <div class="sub_1_3product3">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg9"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3>녹영 콩란 </h3>
+                        <p>7,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div>  
+                    </a>              
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg10"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3 class="sub_1_3size2">블랙로즈 </h3>
+                        <p>10,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div> 
+                    </a>               
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg11"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3>크라슐라 헤레이 </h3>
+                        <p>6,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div>   
+                    </a>             
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg12"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3>선 버스트 </h3>
+                        <p>5,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div> 
+                    </a>           
+                </div>               
+            </div>
+        </article>
+        <article class="sub_1_3succulent1">
+            <div class="sub_1_3succulentbox1">
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg1"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3 class="sub_1_3size1">모닝뷰티 </h3>
+                        <p>10,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div>  
+                    </a>              
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg2"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3 class="sub_1_3size1">스타라이트 </h3>
+                        <p>5,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div> 
+                    </a>               
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg3"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3 class="sub_1_3size1">블루아톨 </h3>
+                        <p>8,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div>   
+                    </a>             
+                </div>
+                <div class="sub_1_3product1">
+                    <a href="#">
+                        <div class="sub_1_3hover">
+                            <span class="sub_1_3succulentimg4"></span>
+                        </div>
+                    <div class="sub_1_3succulenttext">
+                        <h3 class="sub_1_3size1">뉘른베르크 </h3>
+                        <p>10,000</p>
+                        <a href="#" class="sub_1_3Addcart">add to cart</a>
+                    </div> 
+                    </a>           
+                </div>               
+            </div>
+        </article>
+        <div class="sub_1_3bttn">
+            <button>load more</button>
+        </div>
+        
+    </section>
+    <footer>
+        <div class="footertxt">
+            <ul>
+                <li>OUR STORE</li>
+                <li><span>서울특별시 송파구 송파대로12길</span></li>
+                <li>Phone: 123-456-7890</li>
+                <li>Email:  needsplant@mysite.com</li>
+            </ul>
+            <ul>
+                <li>OPENING HOURS</li>
+                <li>Mon - Fri: 7am - 10pm</li>
+                <li>​​Saturday: 8am - 10pm</li>
+                <li>Sunday: 8am - 11pm</li>
+            </ul>
+            <ul>
+                <li>HELP</li>
+                <li>Shipping & Returns</li>
+                <li>Privacy Policy</li>
+                <li>FAQ</li>
+            </ul>
+            <ul>
+                <li>SUBSCRIBE</li>
+                <li class="Input">
+                    <input type="text" class="Email" name="email1" size="25" placeholder="Enter your email here">
+                    <span class="subscribe-button focus1">Subscribe Now</span>
+                    <!-- <input type="submit" value="Subscribe Now"> -->
+                </li>
+            </ul>
+        </div>
+        <ul class="small">
+            <li>SUBSCRIBE</li>
+            <li class="Input2">
+                <input type="text" class="Email2"name="email1" size="25" placeholder="Enter your email here">
+                <span class="subscribe-button2 focus2">Subscribe Now</span>
+                <!-- <input type="submit" value="Subscribe Now"> -->
+            </li>
+        </ul>
+        <div class="sns">
+            <div class="snsicon">
+                <a href="https://www.instagram.com/" target="_blank"><img src="img/sns1.svg"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="img/sns2.svg"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="img/sns3.svg"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="img/sns4.svg"></a>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <script type="text/javascript" src="js/main/dropdown_1.js"></script>
+    <script type="text/javascript" src="js/main/modal.js"></script>
+    <script type="text/javascript" src="js/main/menu_toggle.js"></script>
+    <script type="text/javascript" src="js/sub1_3/sub1_3loadmore.js"></script>
+    <script type="text/javascript" src="js/main/submit.js"></script>
+    <script type="text/javascript" src="js/sub1_3/cart_3.js"></script>
+
+</body>
+</html>
