@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+
+.sub_2content {
+    width: 100%; height: auto; margin: 0 auto;
+    font-family: 'Hind+Vadodara', sans-serif;
+}
+.classAll {
+    width: 100%; height: 80px; margin: 0 auto;
+    margin: 50px 0;
+    text-align: center; display: flex; 
+    justify-content: center; align-items: center;
+}
+.classAll > h2 {
+    text-transform: uppercase; font-size: 4em;
+    letter-spacing: 0.08em; color: #2f2f2f;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+    font-weight: 500;
+}
+
+/*GARDEN--------------*/
+.sub_2class {
+    width: 90%;
+    /* border: 1px solid salmon; */
+    margin: 0 auto; text-align: center;
+}
+.sub_2classbox {
+    width: 90%;
+    display: flex; margin: 0 auto;
+    justify-content: space-around;
+    padding: 0 0 80px;
+}
+.sub_2product1 {
+    width: 300px;
+}
+.sub_2Line:before {
+    content: '';
+    display: block;
+    width: 100px; margin: 1px auto;
+    border-top: 2px solid #647150;    
+}
+.sub_2hover {
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #000;
+    display: flex;
+    justify-content: center;
+}
+.sub_2hover > h2 {
+    position: absolute;
+    margin: 25px auto; text-transform: uppercase;
+    font-size: 1.7em; letter-spacing: 0.15em;
+    color: #444; text-align: center;
+    font-weight: 600;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+    z-index: 2;
+}
+.sub_2classimg1:hover,
+.sub_2classimg2:hover,
+.sub_2classimg3:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+.sub_2classimg1 {
+    width: 300px;
+    height: 400px;
+    display: block;
+    position: relative;
+    background: url(../../img1/hobby.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+    z-index: 0;
+}
+.sub_2classimg2 {
+    width: 300px;
+    height: 400px;
+    display: block;
+    position: relative;
+    background: url(../../img1/1day.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+    z-index: 0;
+}
+.sub_2classimg3 {
+    width: 300px;
+    height: 400px;
+    display: block;
+    position: relative;
+    background: url(../../img1/menagement.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+    z-index: 0;
+}
+.sub_2classtitle {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    background:#647150;
+    cursor: pointer;
+    padding: 10px 0;
+    transition: all 0.3s;
+}
+.sub_2classtitle:hover h3 {
+    color: #555;
+}
+.sub_2classtitle:hover {
+    background:#828f6f;
+}
+.sub_2classtitle > h3 {
+    margin: 5px auto; 
+    text-transform: capitalize;
+    font-size: 1.2em; 
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+    color: #fff; 
+    text-align: center;
+    transition: all 0.3s;
+}
+.sub_2classtext {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0.9em;
+    background:rgba(132, 147, 110, 0.3);
+}
+.sub_2classtext {
+    display: none;
+}
+.active .sub_2classtext {
+    display: block;
+}
+.sub_2classtext p {
+    line-height: 1.8em;
+    font-weight: 300;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.sub_2Addcart {
+    width: 90px; height: 30px; 
+    display: inline-block;
+    border: 1px solid #84936e;
+    margin-top: 20px;
+    padding: 4px 0; border-radius: 3px;
+    font-size: 0.8em;
+    text-transform: capitalize;
+    background: #eee;
+    padding-top: 5px;
+    line-height: 1.8em;
+    font-weight: 300;
+    font-family: 'Noto Sans KR', sans-serif;
+    transition: all 0.5s;
+}
+.sub_2Addcart:hover {
+    background: #828f6f;
+}
+/*GARDEN----END*/

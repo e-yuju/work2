@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+
+.sub_1_1content {
+    width: 100%; height: auto; margin: 0 auto;
+}
+.sub_1_1Title {
+    width: 100%; height: 80px; margin: 0 auto;
+    margin: 50px 0;
+    display: flex; 
+    justify-content: center; align-items: center;
+    text-transform: uppercase; font-size: 2.2em;
+}
+.sub_1_1TitleIn {
+    letter-spacing: 0.5em; color: #555;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+    font-weight: 400;
+}
+.sub_1_1TitleIn:before {
+    content: '';
+    display: block;
+    width: 200px; margin: 1px auto;
+    border-top: 2px solid rgba(132, 147, 110, 0.8);    
+}
+.sub_1_1Addcart {
+    width: 90px; height: 30px; display: inline-block;
+    border: 1px solid #84936e; margin-top: 10px;
+    padding: 3px 0; border-radius: 3px;
+    font-size: 0.9em;
+    font-weight: 300;
+    text-transform: capitalize;
+    background: #eee;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+    transition: all 0.5s;
+    /* box-shadow: 0px 0px 3px rgba(132, 147, 110, 0.8); */
+}
+.sub_1_1Addcart:hover {
+    background: #d0d6cd;
+}
+.sub_1_1bttn {
+    width: 100%;
+    display: block; text-align: center;
+    margin-bottom: 50px;    
+}
+.sub_1_1bttn > button {
+    width: 150px; height: 35px;
+    text-transform: capitalize;
+    color: #fff; background: #4e5f43;
+    border: 1px solid #ccc;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    font-size: 0.9em;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sub_1_1bttn button:focus {
+    outline: none;
+}
+.sub_1_1bttn button:hover {
+    background:#84936e;
+}
+.sub_1_1size1:after {
+    content: ' (M)';
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9em;
+    vertical-align: top;
+    font-weight: 300;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+}
+.sub_1_1size2:after {
+    content: ' (S)';
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9em;
+    vertical-align: top;
+    font-weight: 300;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+}
+.sub_1_1size3:after {
+    content: ' (L)';
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9em;
+    vertical-align: top;
+    font-weight: 300;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+}
+.sub_1_1size2:after {
+    content: ' (S)';
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9em;
+    vertical-align: top;
+    font-weight: 300;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+}
+.sub_1_1gardentext {
+    text-align: center; margin-top: 15px;
+}
+.sub_1_1gardentext a > h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+}
+.sub_1_1gardentext p {
+    letter-spacing: 0.05em;
+    text-align: center; margin-top: 5px;
+    font-size: 1.1em;
+    font-weight: 300;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+}
+.sub_1_1hover {
+    width: 220px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #000;
+}
+.sub_1_1gardenimg1:hover, .sub_1_1gardenimg2:hover,
+.sub_1_1gardenimg3:hover, .sub_1_1gardenimg4:hover,
+.sub_1_1gardenimg5:hover, .sub_1_1gardenimg6:hover,
+.sub_1_1gardenimg7:hover, .sub_1_1gardenimg8:hover,
+.sub_1_1gardenimg9:hover, .sub_1_1gardenimg10:hover,
+.sub_1_1gardenimg11:hover, .sub_1_1gardenimg12:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+/*------1-LINE--------*/
+.sub_1_1garden1 {
+    width: 90%; height: 500px;
+    /* border: 1px solid salmon; */
+    margin: 10px auto; text-align: center;
+    display: none;
+}
+.sub_1_1first {
+    margin-top: 65px;
+
+}
+.sub_1_1gardenbox1 {
+    width: 80%;
+    display: flex; margin: 0 auto;
+    justify-content: space-around;
+}
+.sub_1_1product1 {
+    width: 250px; height: 400px;
+    /* border: 1px solid blue; */
+}
+.sub_1_1gardenimg1 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_1.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1_1gardenimg2 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_2.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1_1gardenimg3 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_3.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1_1gardenimg4 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_4.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+/*------2-LINE--------*/
+
+
+.sub_1_1gardenbox2 {
+    width: 80%;
+    display: flex; margin: 0 auto;
+    justify-content: space-around;
+}
+.sub_1_1product2 {
+    width: 250px; height: 400px;
+    /* border: 1px solid blue; */
+}
+.sub_1_1gardenimg5 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_5.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1_1gardenimg6 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_6.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1_1gardenimg7 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_7.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1_1gardenimg8 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_8.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+/*------3-LINE--------*/
+
+
+.sub_1_1gardenbox3 {
+    width: 80%;
+    display: flex; margin: 0 auto;
+    justify-content: space-around;
+}
+.sub_1_1product3 {
+    width: 250px; height: 400px;
+    /* border: 1px solid blue; */
+}
+.sub_1_1gardenimg9 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_9.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1_1gardenimg10 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_10.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1_1gardenimg11 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_11.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1_1gardenimg12 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_12.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+

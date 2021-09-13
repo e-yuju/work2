@@ -1,0 +1,210 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0,0,0,0.4);
+    z-index: 99;
+}
+.modal_content {
+    background: #ece4e4;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 400px;
+    height: 500px;
+    position: relative;
+}
+#close {
+    display: block;
+    color: #6d4747;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -15px;
+}
+#close:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+#close:hover,
+#close:focus {
+    color: #4a2a2a;
+    text-decoration: none;
+    cursor: pointer;
+}
+.in_modal {
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    transform: translate(8px,20px);
+    /* border: 1px solid midnightblue; */
+}
+.form {
+    width: 300px;
+    height: 340px;
+    margin: 0 auto;
+    margin-top: 15px;
+    /* background: #fff; */
+    mix-blend-mode: multiply;
+    /* border: 1px solid #c39d9d; */
+    box-shadow: rgba(0,0,0,1);
+}
+.form h3 {
+    font-family: 'Noto Sans KR',sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    margin-top: 10px;
+    color: #555;
+}
+.form h2 {
+    padding: 5px;
+    font-family: 'Noto Sans KR',sans-serif;
+    font-weight: 600;
+    /* background: #7c5959; */
+    color: #7c5959;
+    border-radius: 2px;
+}
+.modal_login {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+    /* border: 1px solid cyan; */
+}
+.modal_login input {
+    width: 210px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+.modal_login input:focus {
+    outline: 1px solid #ccc;
+}
+.modal_login input::placeholder {
+    font-family: 'Noto Sans KR',sans-serif;
+    padding-left: 10px;
+    font-size: 0.9em;
+    opacity: 0.7;
+}
+.modal_login span {
+    text-transform: uppercase;
+    font-size: 0.95em;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+    font-weight: 500;
+    color: #515254;
+}
+.butt {
+    width: 230px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.butt input {
+    width: 100px;
+    height: 30px;
+    background: #7c5454;
+    color: #fff;
+    border: 1px solid #6d4747;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.butt input:focus {
+    outline: none;
+    background: #6d4747;
+}
+.snslogin {
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 3px;
+    /* border: 1px solid #6d4747; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0.8;
+}
+.kakao {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.kakao:focus {
+    outline: none;
+    background: #e7c318;
+}
+.kakao > img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.google {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.google:focus {
+    outline: none;
+    background: #dfdfdf;
+}
+.google > img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.twiter {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.twiter > img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+/* .form h2 {
+}
+.form input span {
+    display: block;
+}
+.form input {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+}
+.form input::placeholder {
+    padding-left: 5px;
+}
+.form input[type=text] {
+    margin-top: -5px;
+}
+.form input[type=submit]{
+    margin-top: 5px;
+}
+.form button {
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+} */

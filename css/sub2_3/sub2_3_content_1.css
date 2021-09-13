@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+
+.sub_2_3content {
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto;
+    font-family: 'Hind Vadodara' Arial, sans-serif;
+}
+.sub_2_3Title {
+    width: 100%; height: 80px; 
+    margin: 0 auto;
+    margin: 50px 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    text-transform: uppercase; 
+    font-size: 2.2em;
+    letter-spacing: 0.5em; 
+    color: #555;
+}
+.sub_2_3TitleIn:before {
+    content: '';
+    display: block;
+    width: 200px; margin: 1px auto;
+    border-top: 2px solid rgba(132, 147, 110, 0.8);
+    
+}
+
+/*------1-LINE--------*/
+.sub_2_3manage1 {
+    width: 90%;
+    /* border: 1px solid salmon; */
+    margin: 0 auto; 
+    text-align: center;
+    margin-bottom: 30px;
+}
+.sub_2_3managebox1 {
+    width: 80%;
+    display: flex; margin: 0 auto;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+}
+.sub_2_3manage2 {
+    width: 90%;
+    /* border: 1px solid salmon; */
+    margin: 0 auto; 
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sub_2_3managebox2 {
+    width: 80%;
+    display: flex; margin: 0 auto;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+}
+.sub_2_3product1 {
+    width: 49%;
+    /* border: 1px solid blue; */
+}
+.sub_2_3hover {
+    margin: 0 auto;
+    overflow: hidden;
+    background: #000;
+}
+.sub_2_3manageimg1:hover,
+.sub_2_3manageimg2:hover,
+.sub_2_3manageimg3:hover,
+.sub_2_3manageimg4:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+.sub_2_3manageimg1 {
+    width: 100%;
+    height: 250px;
+    display: block;
+    background: url(../../img1/sub2_kids.jpg) no-repeat center bottom;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_2_3manageimg2 {
+    width: 100%;
+    height: 250px;
+    display: block;
+    background: url(../../img1/sub2_beginner.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_2_3managetext > h3 {
+    text-align: center;
+    margin: 10px 0; 
+    font-size: 1.3em;
+    color: #555;
+    text-transform: capitalize;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.sub_2sale:before {
+    content: '30%';
+    display: inline-block;
+    font-size: 1.2em;
+    font-family: 'Hind Vadodara' Arial, sans-serif;
+    font-weight: 700;
+    color: #c12a2a;
+    transform: translateY(-1px);
+}
+.sub_2_3managetext {
+    text-align: center;
+    background: #eee;
+    border: 1px solid #ccc;
+}
+.sub_2_3managetext p {
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    font-size: 1.1em;
+    text-align: center; 
+    margin: 10px 0;
+    font-family: 'Hind Vadodara' Arial, sans-serif;
+    white-space: pre-wrap;
+}
+.sub_2_3managetext p > i {
+    letter-spacing: 0.05em;
+    color: #ccc;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center; 
+    font-weight: 300;
+    text-decoration: line-through;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+.sub_2_3managetext p > span {
+    letter-spacing: 0.05em;
+    color: #555;
+    font-family: 'Noto Sans KR', sans-serif;
+    text-align: center; margin-top: 5px;
+}
+/*------1-LINE--END------*/
+
+/*------2-LINE--------*/
+
+.sub_1_3manage2 {
+    width: 90%; height: 500px;
+    /* border: 1px solid salmon; */
+    margin: 0 auto; text-align: center;
+}
+.sub_1_3managebox2 {
+    width: 80%;
+    display: flex; margin: 0 auto;
+    justify-content: space-around;
+}
+.sub_1_3product2 {
+    width: 250px; height: 400px;
+    /* border: 1px solid blue; */
+}
+
+.sub_2_3manageimg3 {
+    width: 100%;
+    height: 250px;
+    display: block;
+    background: url(../../img1/sub2_middle.jpg) no-repeat center bottom;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_2_3manageimg4 {
+    width: 100%;
+    height: 250px;
+    display: block;
+    background: url(../../img1/sub2_high.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+
+
+

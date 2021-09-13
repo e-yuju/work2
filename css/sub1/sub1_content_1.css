@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+
+.sub_1content {
+    width: 100%; height: auto; margin: 0 auto;
+}
+.shopAll {
+    width: 100%; height: 80px; margin: 0 auto;
+    margin: 50px 0;
+    text-align: center; display: flex; 
+    justify-content: center; align-items: center;
+}
+.shopAll > h2 {
+    text-transform: uppercase; font-size: 4em;
+    letter-spacing: 0.08em; color: #2f2f2f;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+    font-weight: 500;
+}
+.sub_1garden > h3,
+.sub_1cactus > h3,
+.sub_1succulents > h3 {
+    text-align: center; 
+    margin: 25px auto; text-transform: uppercase;
+    font-size: 1.7em; letter-spacing: 0.5em;
+    color: #555; text-align: center;
+    font-weight: 500;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+}
+.sub_1Line:before {
+    content: '';
+    display: block;
+    width: 100px; margin: 1px auto;
+    border-top: 2px solid rgba(132, 147, 110, 0.8);
+    
+}
+.sub_1Addcart {
+    width: 90px; height: 30px; display: inline-block;
+    border: 1px solid #84936e; margin-top: 10px;
+    padding: 3px 0; border-radius: 3px;
+    font-size: 0.8em;
+    text-transform: capitalize;
+    background: #eee;
+    font-weight: 300;
+    font-size: 0.9em;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+    transition: all 0.5s;
+    /* box-shadow: 0px 0px 3px rgba(132, 147, 110, 0.8); */
+}
+.sub_1Addcart:hover {
+    background: #d0d6cd;
+}
+.sub_1bttn {
+    display: block; margin: 20px auto;
+}
+.sub_1bttn > button {
+    width: 150px; height: 35px;
+    margin-top: 40px; text-transform: capitalize;
+    color: #fff; background: #4e5f43;
+    border: 1px solid #ccc;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    font-size: 0.9em;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.sub_1bttn button:focus {
+    outline: none;
+}
+.sub_1bttn button:hover {
+    background:#84936e;
+}
+
+.sub_1size1:after {
+    content: ' (S)';
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9em;
+    vertical-align: top;
+    font-weight: 300;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+}
+.sub_1size2:after {
+    content: ' (M)';
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9em;
+    vertical-align: top;
+    font-weight: 300;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+}
+.sub_1gardentext,
+.sub_1cactustext,
+.sub_1succulenttext {
+    text-align: center; margin-top: 15px;
+}
+.sub_1gardentext a > h3,
+.sub_1cactustext a > h3,
+.sub_1succulenttext a > h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+}
+.sub_1gardentext p,
+.sub_1cactustext p,
+.sub_1succulenttext p {
+    letter-spacing: 0.05em;
+    text-align: center; margin-top: 5px;
+    font-size: 1.1em;
+    font-weight: 300;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+}
+.sub_1hover {
+    width: 220px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #000;
+}
+.sub_1gardenimg1:hover, .sub_1gardenimg2:hover, 
+.sub_1gardenimg3:hover, .sub_1gardenimg4:hover, 
+.sub_1cactusimg1:hover, .sub_1cactusimg2:hover, 
+.sub_1cactusimg3:hover, .sub_1cactusimg4:hover, 
+.sub_1succulentimg1:hover, .sub_1succulentimg2:hover, 
+.sub_1succulentimg3:hover, .sub_1succulentimg4:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+/*GARDEN--------------*/
+.sub_1garden {
+    width: 90%; height: 600px;
+    /* border: 1px solid salmon; */
+    margin: 0 auto; text-align: center;
+}
+.sub_1gardenbox {
+    width: 80%;
+    display: flex; margin: 0 auto;
+    justify-content: space-around;
+}
+.sub_1product1 {
+    width: 250px; height: 400px;
+    /* border: 1px solid blue; */
+}
+.sub_1gardenimg1 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_1.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1gardenimg2 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_2.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1gardenimg3 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_3.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1gardenimg4 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/garden_4.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1gradentext > h3 {
+    text-align: center;
+    margin: 25px 0; text-transform: uppercase;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*GARDEN----END*/
+
+/*FLOWERS--------------*/
+.sub_1cactus {
+    width: 90%; height: 600px;
+    /* border: 1px solid salmon; */
+    margin: 0 auto; text-align: center;
+    margin-top: 30px;
+}
+.sub_1cactusbox {
+    width: 80%;
+    display: flex; margin: 0 auto;
+    justify-content: space-around;
+}
+.sub_1product2 {
+    width: 250px; height: 400px;
+    /* border: 1px solid blue; */
+}
+.sub_1cactusimg1 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/cactus_1.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1cactusimg2 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/cactus_2.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1cactusimg3 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/cactus_3.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1cactusimg4 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/cactus_4.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1cactustext > h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*FLOWERS----END*/
+
+/*succulents--------------*/
+.sub_1succulents {
+    width: 90%; height: 650px;
+    /* border: 1px solid salmon; */
+    margin: 0 auto; text-align: center;
+    margin-top: 30px;
+}
+.sub_1succulentbox {
+    width: 80%;
+    display: flex; margin: 0 auto;
+    justify-content: space-around;
+}
+.sub_1product3 {
+    width: 250px; height: 400px;
+    /* border: 1px solid blue; */
+}
+.sub_1succulentimg1 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/succulent_1.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1succulentimg2 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/succulent_2.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1succulentimg3 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/succulent_3.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1succulentimg4 {
+    width: 220px;
+    height: 300px;
+    display: block;
+    background: url(../../img1/succulent_4.jpg) no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+.sub_1succulenttext > h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/*succulents----END*/

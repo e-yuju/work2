@@ -1,0 +1,122 @@
+.carttitle {
+    width: 100%;
+    margin: 0 auto;
+}
+.cartline {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
+    color: #555;
+    font-size: 2.3em;
+    letter-spacing: 0.2em; color: #555;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+    font-weight: 300;
+}
+.cartline:before {
+    content: '';
+    display: block;
+    width: 200px; margin: 1px auto;
+    border-top: 2px solid rgba(132, 147, 110, 0.8);
+}
+.products_container {
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding-bottom: 100px;
+}
+.product-header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgray;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    color: #555;
+}
+.product-title {
+    width: 40%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;    
+}
+.price {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.quantity {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.total {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.products {
+    width: 100%;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+}
+.product_bottom {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+}
+.product_bottom > ion-icon {
+    color: #6c4040;
+    font-size: 20px;
+}
+.product_bottom > img {
+    width: 100px;
+    margin-left: 10px;
+}
+.product_bottom > span {
+    display: inline-block;
+}
+.product_name {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+}
+.product {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px dotted #ccc;
+}
+.product_bottom_right {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+.quantity_in > ion-icon {
+    color: #6c4040;
+
+}
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+.basketTotalTitle {
+    width: 15%;
+    text-transform: capitalize;
+    color: #555;
+}
+.basketTotal {
+    width: 10%;
+    color: #6c4040;
+}

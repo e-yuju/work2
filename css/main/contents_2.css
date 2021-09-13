@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+
+
+* {padding: 0; margin: 0; box-sizing: border-box;}
+ul, li {list-style: none;}
+img {border: none; display: block;}
+
+
+.contentsBg2 {
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.contentsBg2:after {
+    width: 100%;
+    /* height: 100%; */
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0; left: 0;
+    /* background: url('../img/Back_1.png') no-repeat top center; */
+    opacity: 0.2;
+    z-index: 1;
+}
+.content_position2 {
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    background: #495c3d;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;;
+}
+.Number_count {
+    width: 1300px;
+    height: 250px;
+    position: relative;
+    margin: 0 auto;
+    background: #4e5f43;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+.Number_count:after {
+    width: 250px;
+    height: 250px;
+    content: '';
+    background: url(../../img/pot1.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    position: absolute;
+    transform: translateY(-180px);
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
+    z-index: 1;
+}
+/*----------count_icon1----------*/
+.count_icon1 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* border: 1px solid #fff; */
+}
+.count_icon1 strong {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.count_icon1 i {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+}
+.count_icon1 h3 {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.count_icon1 p {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+}
+.count_icon1 p:after {
+    content: '';
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 3px solid rgba(255,255,255,0.5);
+}
+/*----------count_icon2----------*/
+.count_icon2 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* border: 1px solid #fff; */
+}
+.count_icon2 strong {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.count_icon2 i {
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 30px;
+}
+.count_icon2 h3 {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.count_icon2 p {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+}
+.count_icon2 p:after {
+    content: '';
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 3px solid rgba(255,255,255,0.5);
+}
+/*----------count_icon3----------*/
+.count_icon3 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* border: 1px solid #fff; */
+}
+.count_icon3 strong {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.count_icon3 i {
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 30px;
+}
+.count_icon3 h3 {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.count_icon3 p {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+}
+.count_icon3 p:after {
+    content: '';
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 3px solid rgba(255,255,255,0.5);
+}
+/*----------count_icon3----------*/
+.count_icon4 {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* border: 1px solid #fff; */
+}
+.count_icon4 strong {
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.count_icon4 i {
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 30px;
+}
+.count_icon4 h3 {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.count_icon4 p {
+    display: block;
+    text-align: center;
+    font-size: 3em;
+}
+.count_icon4 p:after {
+    content: '';
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 3px solid rgba(255,255,255,0.5);
+}

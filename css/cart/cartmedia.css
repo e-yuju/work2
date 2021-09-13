@@ -1,0 +1,297 @@
+@media all and (max-width: 1379px) {
+    /*--------dropdown--------*/
+    .inmenu {width: 170px;}
+    .logo {transform: translate(-40px,45px);}
+
+    .footertxt {width: 1150px;}
+
+}
+@media all and (max-width: 1279px) {
+    /*--------dropdown--------*/ 
+    .menu {width: 80%;}
+    .inmenu {width: 15%;}  
+    .logo {
+        display: flex;
+        transform: translate(-20px,45px);
+    }
+    /*--------products--------*/ 
+    .products {
+        width: 90%;
+        height: 1000px;
+    }
+    .product-header {
+        width: 90%;
+    }
+    .product {
+        width: 100%;
+    }
+    .product_bottom {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+    .product_name {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+    .product_bottom_right {
+        width: 55%;
+    }
+    .price_in {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+    .quantity_in {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .total_in {
+        width: 17%;
+        display: flex;
+        justify-content: center;
+    }
+    .basketTotalContainer {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .basketTotalTitle {
+        width: 20%;
+        font-size: 0.95em;
+    }
+    .basketTotal {
+        width: 10%;
+        font-size: 0.95em;
+    }
+
+    /*--------footer--------*/ 
+    .footertxt {width: 950px;}
+
+}
+@media all and (max-width: 1023px) {
+    header {height: 100px;}
+    .drop {background: linear-gradient(rgba(255,255,255,0.5) 79px, rgba(255,255,255,0.5));}
+    .menu {
+        width: 100%; height: 256%; display: block;
+        transform: translateY(39%); 
+    }
+    nav {
+        position: fixed; top:0; background: #6c4040; height: 100px; 
+        z-index: 999; box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    }
+    .inmenu {
+        width: 100%; transform: translate(0, 0); display: none;
+        border-bottom: 0.01em solid #eee; text-align: center;
+        margin: 0 auto; padding-bottom: 6%; background: #fff;
+        opacity: 0.9;
+    }
+    .inmenu > a {display: inline-block; margin-top: 5px; color: #6c4040;}
+    .inmenu > a:hover {color: #333;}
+    .submenu {display: none;}
+    .logo {position: absolute; left: 8%; top: -68%; display: bolck;}
+    .logo > img {width: 70px; height: 70px;}
+    .login {position: absolute; right: 17%; top: -76%; display: bolck;}
+    .toggle {
+        display: flex; font-size: 2em;
+        position: absolute; right: 5%; bottom: 10%; top: 43%;
+        z-index: 5; color: #e7e5b4; cursor: pointer;
+    }
+    /*--------products--------*/ 
+    .products {
+        width: 80%;
+        height: 900px;
+        border: none;
+    }
+    .product-header {
+        width: 80%;
+    }
+    .product-title {
+        width: 35%;
+    }    
+    .price {
+        width: 25%;
+        padding-left: 140px;
+    }
+    .quantity {
+        width: 15%;
+        padding-left: 90px;
+    }
+    .total {
+        width: 23%;
+        padding-left: 55px;
+    }
+    .product_bottom > ion-icon {
+        font-size: 15px;
+    }
+    .product_bottom > img {
+        width: 80px;
+        margin-left: 8px;
+    }
+    .product_name {
+        width: 30%;
+        font-size: 0.8em;
+        text-align: center;
+        padding: 0 10px;
+    }
+    .product_bottom_right {
+        width: 50%;
+    }
+    .price_in {
+        font-size: 0.9em;
+    }
+    .quantity_in {
+        font-size: 0.9em;
+    }
+    .total_in {
+        font-size: 0.9em;
+    }
+    .basketTotalTitle {
+        width: 20%;
+        font-size: 0.95em;
+    }
+    .basketTotal {
+        width: 8%;
+        font-size: 0.95em;
+    }
+
+    /*--------footer--------*/ 
+    
+    .footertxt {width: 97%;}
+    .footertxt ul {font-size: 0.8em;}
+}
+@media all and (max-width: 779px) {
+    body {width: 100%;}
+    header {height: 100px;}
+    .drop {background: linear-gradient(rgba(255,255,255,0.5) 79px, rgba(255,255,255,0.5));}
+    .menu {
+        width: 100%; height: 265%; display: block;
+        transform: translateY(37%); 
+    }
+    nav {
+        width: 100%;
+        position: fixed; top:0; background: #6c4040; height: 100px; 
+        z-index: 999; box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    }
+    .inmenu {
+        width: 100%; transform: translate(0, 4%); display: none;
+        border-bottom: 0.01em solid #eee; text-align: center;
+        margin: 0 auto; padding-bottom: 6%; background: #fff;
+        opacity: 0.9;
+    }
+    .inmenu > a {display: inline-block; margin-top: 5px; color: #6c4040;}
+    .inmenu > a:hover {color: #333;}
+    .submenu {display: none;}
+    .logo {position: absolute; left: 8%; top: -65%; display: bolck;}
+    .logo > img {width: 70px; height: 70px;}
+    .login {position: absolute; right: 19%; top: -72.5%; display: bolck;}
+    .toggle {
+        display: flex; font-size: 2em;
+        position: absolute; right: 4%; bottom: 45%; top: 43%;
+        z-index: 5; color: #e7e5b4; cursor: pointer;}
+/*--------products--------*/ 
+    .products {
+        width: 80%;
+        height: 900px;
+        border: none;
+    }
+    .product_bottom {
+        width: 25%;
+    }
+    .product_bottom > ion-icon {
+        font-size: 15px;
+    }
+    .product_bottom > img {
+        width: 70px;
+        margin-left: 8px;
+    }
+    .quantity {
+        padding-left: 74px;
+    }
+    .price_in {
+        font-size: 0.8em;
+    }
+    .quantity_in {
+        font-size: 0.8em;
+    }
+    .quantity_in > span {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .total_in {
+        font-size: 0.8em;
+    }
+    .basketTotalTitle {
+        width: 30%;
+        font-size: 0.9em;
+    }
+    .basketTotal {
+        width: 13%;
+        font-size: 0.9em;
+    }    
+
+/*--------footer--------*/
+    footer {transform: translateY(40%); height: 370px;}
+    .footertxt {width: 90%;}
+    .footertxt ul:last-child {display:none;}
+    .small {display: block; margin-top: -25px;}
+    .sns {margin-top: 10px;}
+
+}
+@media all and (max-width: 599px) {
+    body {width: 100%;}
+    header {height: 100px;}
+    .drop {background: linear-gradient(rgba(255,255,255,0.5) 79px, rgba(255,255,255,0.5));}
+    .menu {
+        width: 100%; height: 265%; display: block;
+        transform: translateY(36.5%); 
+    }
+    nav {
+        width: 100%;
+        position: fixed; top:0; background: #6c4040; height: 80px; 
+        z-index: 999; box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    }
+    .inmenu {
+        width: 100%; transform: translate(0, 4%); display: none;
+        border-bottom: 0.01em solid #eee; text-align: center;
+        margin: 0 auto; padding-bottom: 6%; background: #fff;
+        opacity: 0.9;
+    }
+    .inmenu > a {display: inline-block; margin-top: 5px; color: #6c4040;}
+    .inmenu > a:hover {color: #333;}
+    .submenu {display: none;}
+    .logo {position: absolute; left: 11%; top: -76%; display: bolck;}
+    .logo > img {width: 70px; height: 70px;}
+    .login {position: absolute; right: 25%; top: -84.5%; display: bolck;}
+    .toggle {
+        display: flex; font-size: 2em;
+        position: absolute; right: 4%; bottom: 45%; top: 43%;
+        z-index: 5; color: #e7e5b4; cursor: pointer;}
+    .product_bottom > ion-icon {
+        font-size: 15px;
+    }
+    .product_bottom > img {
+        width: 70px;
+        margin-left: 5px;
+    }
+
+
+    /*footer*/
+    footer {transform: translateY(40%); height: 350px;}
+    .footertxt {width: 95%;}
+    .footertxt ul {width: 30%;}
+    .footertxt ul li:nth-child(1) {font-size: 0.9em;}
+    .footertxt ul:last-child {display:none;}
+    .footertxt ul li {font-size: 0.8em;}
+    .small {display: block; margin-top: -20px;}
+    .small > li {font-size: 0.9em;}
+    .small .Input input[type=text] {width: 220px; height: 27px;}
+    .small .Input input[type=submit] {width: 135px; height: 32px;}
+    .sns {margin-top: 1px;}
+    .snsicon img {width: 25px; height: 25px;}    
+
+}
+
+

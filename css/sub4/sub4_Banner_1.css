@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+
+* {-webkit-font-smoothing: antialised;}
+ul,li {list-style: none; }
+
+.sub_4container {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;    
+}
+.sub_4banner-container {
+    width:100%;
+    left: 0;
+}
+
+.sub_4banner {
+    width: 100%;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+.sub_4banner a {
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    z-index: 99;
+}
+.sub_4banner_bg1 {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    background: url(../../img1/banner.jpg) no-repeat center center;
+    background-size: cover;    
+}
+.sub_4banner_bg1 strong {
+    position: relative;
+    width: 100%; 
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    color: #fff;
+    font-size: 4em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    opacity: 0.8;
+    font-family: 'Hind Vadodara', Arial, sans-serif;
+    filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.5));
+}
+
